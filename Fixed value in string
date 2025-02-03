@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML='hello ameesha';
+// strings are text can be used to single quotes or double quotes 
+</script>
+
+</body>
+</html>
