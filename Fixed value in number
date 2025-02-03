@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML=10.60;
+// number can be used to with or without decimal
+</script>
+
+</body>
+</html>
