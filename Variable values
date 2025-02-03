@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+let x;
+x=6;
+document.getElementById("demo").innerHTML=x;
+// variable value is used to store the data values
+//the keyword is used to variable is var,let,cons
+</script>
+
+</body>
+</html>
