@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>javascript function</h2>
+  <p id="demo"></p>
+  <script>
+  function myFunction(p1){
+    return (5+7)*(p1*6);
+    }
+  let result=myFunction(5);
+  document.getElementById("demo").innerHTML=result;
+  </script>
+</body>
+</html>  
