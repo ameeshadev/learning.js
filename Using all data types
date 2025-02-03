@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+let message = "Hello"; // String
+let count = 10;      // Number
+let isReady = true;  // Boolean
+let items = ["apple", "banana"]; // Array
+let person = { name: "Alice" }; // Object
+let nothing = null;  // Null
+let undef;         // Undefined
+
+let output = "";
+output += message + "<br>";
+output += count + "<br>";
+output += isReady + "<br>";
+output += items + "<br>";
+output += JSON.stringify(person) + "<br>"; // Important for objects
+output += nothing + "<br>";
+output += undef + "<br>";
+
+document.getElementById("demo").innerHTML = output;
+</script>
+
+</body>
+</html>
