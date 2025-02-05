@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>javascript string</h2>
+  <p id="demo"></p>
+  <script>
+  let result="ameeshadev";
+  let result2="ameesha learning'javascript'";
+  // string using length 
+  document.getElementById("demo").innerHTML=result+"<br>"+result2+"<br>"+result.length;
+  </script>
+</body>
+</html>  
