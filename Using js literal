@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>javascript object</h2>
+  <p id="demo"></p>
+  <script>
+  const person = {
+    firstname: "ameesha", 
+    skincolor: "white",
+    age:19
+
+  };//using an object literal
+
+  document.getElementById("demo").innerHTML = person.firstname+ "is" +person.age+ "years old";
+  </script>
+</body>
+</html>
