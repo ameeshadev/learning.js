@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>javascript object</h2>
+  <h3>creating a new object</h3>
+  <p id="demo"></p>
+  <script>
+  const person = new Object(); // Correct way to create an object
+    person.firstname = "ameesha";
+    person.skincolor = "white ";
+    person.age = 19;
+
+  //using an new object ()
+    document.getElementById("demo").innerHTML = person.firstname + " is " + person.age + " years old"; // Added spaces for readability
+  </script>
+</body>
+</html>
