@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> deleting property  </h2>
+
+<h3> using 3 Propertle [] </h3>
+
+<p id="demo"> </P>
+
+<script>
+
+const Person = {
+  firstname: "ameesha",
+  age: 19
+};
+delete person["age"];
+document.getElementById("demo").innerHTROL = 
+  person ["firstname "] + " is " + Persone ["age"] + "years old!";
+
+</script>
+
+</body>
+</html>
