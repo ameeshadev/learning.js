@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> Adding a new property </h2>
+
+<p id=demoll> </P>
+
+<script>
+
+const Person = {
+  firstname: "ameesha",
+  age: 19
+};
+person.lastname:"shaik";
+document.getElementById("demo").innerHTROL = 
+  person ["firstname "] + " is " + Persone ["age"] +person ["lastname"]+ "years old!";
+
+</script>
+
+</body>
+</html>
