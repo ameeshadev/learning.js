@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>javascript object</h2>
+  <p id="demo"></p>
+  <script>
+  const bed = {
+    type: "square", 
+    color: "pink" // Added comma here
+  }; // create an object 
+
+  document.getElementById("demo").innerHTML = "the bed type is: " + bed.type;
+  </script>
+</body>
+</html>
