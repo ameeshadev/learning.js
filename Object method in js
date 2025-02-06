@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>creating a object method</h2>
+
+<p id="demo"></p>
+
+<script>
+const person = {
+  firstName: "ameeshadev",
+  lastName: "shaik",
+  age: 19,
+  fullName: function() { // Object method
+    return this.firstName + " " + this.lastName;
+  },
+  greet: function(greeting) {
+      return greeting + ", " + this.firstName + "!";
+  }
+};
+
+document.getElementById("demo").innerHTML = person.fullName() + "<br>" + person.greet("Hello");
+
+
+</script>
+
+</body>
+</html>
