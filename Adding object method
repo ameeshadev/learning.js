@@ -1,0 +1,10 @@
+const person = {
+  firstName: "ameesha",
+  lastName: "shaik",
+  id: 05k8,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+document.getElementById("demo").innerHTML = "my name is"+person.fullName();
