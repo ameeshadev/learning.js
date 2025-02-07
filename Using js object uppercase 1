@@ -1,0 +1,14 @@
+// Create an Object
+const person = {
+  firstName: "ammu",
+  lastName: "honey",
+  id: 52
+};
+
+// Add a Method
+person.name = function() {
+  return (this.firstName + " " + this.lastName).toUpperCase();
+};
+
+// Display Object Data
+document.getElementById("demo").innerHTML = "My honey is " + person.name();
