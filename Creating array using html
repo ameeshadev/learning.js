@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2> creating an array</h2>
+    <p id="demo"></p>
+    <script>
+      const fruits=["apple","mango"];
+      document.getElementById("demo").innerHTML=fruits;
+    </script>
+  </body>
+</html>  
