@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2> creating array a new keyword</h2>
+    <p id="demo"></p>
+    <script>
+      const fruits=["apple","mango"];
+      fruits[2]="banana";
+      document.getElementById("demo").innerHTML=fruits;
+    </script>
+  </body>
+</html>  
