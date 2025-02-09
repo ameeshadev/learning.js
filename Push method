@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>array methods</h2>
+    <p>creating array push method</p>
+    <p id="demo"></p>
+    <script>
+      const fruits=["apple","mango"];
+      document.getElementById("demo").innerHTML=fruits.push("mahir");
+      document.getElementById("demo").innerHTML=fruits;
+      //creating length method using normal 
+      let names=["ammu","honey"];
+      a.push("mahir");
+      console.log(a);
+    </script>
+  </body>
+</html>  
