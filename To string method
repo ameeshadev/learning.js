@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>array methods</h2>
+    <p>creating array length method</p>
+    <p id="demo"></p>
+    <script>
+      const fruits=["apple","mango"];
+      document.getElementById("demo").innerHTML=fruits.tostring();
+      //creating tostring method using normal 
+      let names=["ammu","honey"];
+      let a=names.tostring();
+      console.log(a);
+    </script>
+  </body>
+</html>  
