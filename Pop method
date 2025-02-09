@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>array methods</h2>
+    <p>creating array pop method</p>
+    <p id="demo"></p>
+    <script>
+      const fruits=["apple","mango"];
+      let fruit=fruits.pop();
+      document.getElementById("demo").innerHTML=fruit;
+      //creating pop method using normal 
+      let names=["ammu","honey"];
+      a.pop();
+      console.log(a);
+    </script>
+  </body>
+</html>  
