@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>array methods</h2>
+    <p>creating array delete method</p>
+    <p id="demo"></p>
+    <script>
+      const fruits=["apple","mango "];
+      document.getElementById("demo").innerHTML=fruits[0]
+      delete fruits[0];
+      document.getElementById("demo").innerHTML=fruits[0];
+      //creating delete method using normal 
+      let names=["ammu","honey"]
+      console.log(delete names[0]);
+    </script>
+  </body>
+</html>  
