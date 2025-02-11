@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays search method</h1>
+<h2>The include() Method</h2>
+
+<p id="demo"></p>
+
+<script>
+const fruits = ["Apple", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.includes("apple");
+</script>
+
+</body>
+</html>
