@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>The toReversed() Method</h2>
+<p> this method is used to reverse the elements in an array</p>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.toReversed();
+
+document.getElementById("demo").innerHTML =  first;
+</script>
+</body>
+</html>
