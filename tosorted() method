@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>The tosorted() Method</h2>
+
+<p>The tosorted() is copying version of sort() method </p>
+<p>It returns a new array with elements sorted in ascending order</p>
+
+<p id="demo"></p>
+
+<script>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];let fruit=fruits.tosorted();
+document.getElementById("demo").innerHTML = fruits;
+
+</script>
+
+</body>
+</html>
