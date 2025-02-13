@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>javascript operator</h2>
+<p> Bitwise OR operator</p>
+<p> it returns if one  values are having 1</p>
+<p id="demo"></p>
+<script>
+  let a=5|3;
+  document.getElementById("demo").innerHTML=a;
+</script>
+</body>
+</html>
