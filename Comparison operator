@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>javascript operator</h2>
+<p> comparison operator</p>
+<p id="demo"></p>
+<script>
+let a=22;
+let a+=10;
+document.getElementById("demo").innerHTML=a;
+</script>
+</body>
+</html>
