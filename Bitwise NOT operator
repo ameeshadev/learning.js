@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>javascript operator</h2>
+<p> Bitwise NOT operator</p>
+<p> it returns reversing the input is 1 and output will be 0</p>
+<p id="demo"></p>
+<script>
+  let a=~5;
+  document.getElementById("demo").innerHTML=a;
+</script>
+</body>
+</html>
