@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Operators</h2>
+<p>Logical Operators</p>
+<p id="demo"></p>
+
+<script>
+let a = 22;
+let b = 10;
+a += 10; // a is now 32
+
+let results = ""; // Store results in a string
+
+results += "a = " + a + "<br>"; // Display the value of a
+results += "(a > b) && (a == b): " + ((a > b) && (a == b)) + "<br>"; // AND
+results += "(a == b) || (b < a): " + ((a == b) || (b < a)) + "<br>"; // OR
+results += "!(a == b): " + !(a == b) + "<br>"; // NOT
+
+document.getElementById("demo").innerHTML = results; // Set innerHTML once
+</script>
+
+</body>
+</html>
