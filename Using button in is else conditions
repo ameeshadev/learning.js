@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Conditional if-statement</h2>
+<p>If statement is executed only for true value</p>
+<p id="demo"></p>
+<button type="button" onclick="checkNumber()">Click Me</button>
+
+<script>
+function checkNumber() {
+  const num = 10; // Or you could get this value from an input field
+  let result; // More descriptive variable name
+
+  if (num > 5) {
+    result = "right";
+  } else {
+    result = "wrong";
+  }
+
+  document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
