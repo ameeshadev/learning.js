@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>conditional if-statement</h2>
+<p> if statement is executed only true value</p>
+<p id="demo"></p>
+<script>
+const num=10;
+let numbers;
+if(num>5){
+ numbers="right ";
+}
+document.getElementById("demo").innerHTML=numbers;
+</script>
+</body>
+</html>
