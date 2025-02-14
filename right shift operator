@@ -1,0 +1,15 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>javascript operator</h2>
+<p> Bitwise right shift operator</p>
+<p> it returns pushing two values into left side</p>
+<p id="demo"></p>
+<script>
+  let a=5>>2;
+  document.getElementById("demo").innerHTML=a;
+</script>
+</body>
+</html>
