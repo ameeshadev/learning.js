@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>javascript switch statement</h2>
+<p>This statement evaluates an expression once.</p>
+<p>If there is a match, the associated block of code is executed.</p>
+<p>If there is no match, the default code block is executed.</p>
+<p id="demo"></p>
+<button type="button" onclick="checkDays()">Click Me</button>
+
+<script>
+function checkDays() {
+    let day;
+    const today = 4; // You've hardcoded 4 here, which represents Thursday (0-6)
+    const dayOfWeek = today; // Assign the value of today to dayOfWeek
+
+    switch (dayOfWeek) {
+        case 0:
+            day = "Sunday";
+            break;
+        case 1:
+            day = "Monday";
+            break;
+        case 2:
+            day = "Tuesday";
+            break;
+        case 3:
+            day = "Wednesday";
+            break;
+        case 4:
+            day = "Thursday";
+            break;
+        case 5:
+            day = "Friday";
+            break;
+        case 6:
+            day = "Saturday";
+            break;
+        default:
+            day = "Unknown Day";
+    }
+
+    document.getElementById("demo").innerHTML = "The today day is " + day;
+}
+</script>
+
+</body>
+</html>
