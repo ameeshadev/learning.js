@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+let num=10;
+let sum = "";
+
+for (let i = 0; i < 10; i++) {
+  sum += "The number is " + i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = sum;
+</script>
+
+</body>
+</html>
