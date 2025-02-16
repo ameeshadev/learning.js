@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2> javascript<b>type conversation</b></h2>
+    <p> converting number to string</p>
+    <p id="demo"></p>
+    <script>
+      let x=03052006;
+      document.getElement.ById("demo").innerHTML=string(x);
+     </script>
+  </body>
+</html>  
