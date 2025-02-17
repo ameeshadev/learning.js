@@ -1,0 +1,16 @@
+let res = 5 + "5";  
+console.log(res);  
+
+let res = true + 1;  
+console.log(res);
+
+let res = Boolean("");  
+let res2 = Boolean("Hello");  
+console.log(res)
+console.log(res2)
+
+let n = 123;
+let s1 = String(n);  
+let s2 = n.toString();  
+console.log(s1)
+console.log(s2)
