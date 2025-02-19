@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Math</h1>
+<h2>The Math.sin() Method</h2>
+<p>Math.sin() returns the sine of an angel given in radians.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = Math.sin(180/2);
+document.getElementById("demo").innerHTML = x.toFixed(2);
+</script>
+
+</body>
+</html>
