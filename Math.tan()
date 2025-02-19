@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Math</h1>
+<h2>The Math.tan() Method</h2>
+<p>Math.tan() returns the tangent of a number:</p>
+
+<p id="demo"></p>
+
+<script>
+let radians = 2;
+document.getElementById("demo").innerHTML = Math.tan(radians);
+</script>
+
+</body>
+</html>
