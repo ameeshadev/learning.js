@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The constructor Property</h2>
+
+<p>The constructor property returns the function that created the Number prototype:</p>
+
+<p id="demo"></p>
+
+<script>
+let num = 134.5;
+let text = num.constructor;
+
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
