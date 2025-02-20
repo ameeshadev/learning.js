@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The EPSILON Property</h2>
+
+<p>Using x.EPSILON, where x is a variable, returns undefined:</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 100; 
+document.getElementById("demo").innerHTML = Number.EPSILON;
+</script>
+</body>
+</html>
