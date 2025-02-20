@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The Number.isFinite() Method</h2>
+
+<p>Number.isFinite() returns true if the value is a finite, legal number:</p>
+
+<p id="demo"></p>
+
+<script>
+let result = Number.isFinite(123);
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+//Number.isFinite
+<h1>JavaScript Numbers</h1>
+<h2>The Number.isFinite() Method</h2>
+
+<p id="demo"></p>
+
+<p>Number.isFinite() is not supported in Internet Explorer.</p>
+
+<script>
+document.getElementById("demo").innerHTML = Number.isFinite("123");
+</script>
