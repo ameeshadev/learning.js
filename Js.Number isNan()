@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The Number.isNaN() Method</h2>
+
+<p>Number.isNaN() returns true if a value is NaN and of datatype Number, otherwise false.</p>
+
+<p id="demo"></p>
+
+<p>Number.isNaN() is not supported in Internet Explorer.</p>
+
+<script>
+let result =
+"Is 123 NaN? " + Number.isNaN(123) + "<br>" +
+"Is -123 NaN? " + Number.isNaN(-1.23) + "<br>" +
+"Is '123' NaN? " + Number.isNaN('123') + "<br>" +
+"Is 0/0 NaN? " + Number.isNaN(0 / 0);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+</body>
+</html>
