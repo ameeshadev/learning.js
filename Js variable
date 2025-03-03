@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h1>This is Web Page </h1>
+  <p>JavaScript Variables </p>
+
+  <script>
+    var x = 10;
+    var y = 20;
+    var z = x + y;
+    document.write(z);
+  </script>
+
+</body>
+</html>
