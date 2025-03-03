@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h1>This is Web Page </h1>
+  <p>JavaScript Multiple variable in one line </p>
+
+  <script>
+    var x = 10, name = "Jack";
+    document.write(x +"<br>");
+    document.write(name );
+  </script>
+
+</body>
+</html>
