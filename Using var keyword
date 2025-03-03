@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h1>This is Web Page </h1>
+  <p>JavaScript var Keyword </p>
+
+  <script>
+    var x = 10;
+    var name = "Jack";
+    document.write(x +"<br>");
+    document.write(name );
+  </script>
+
+</body>
+</html>
