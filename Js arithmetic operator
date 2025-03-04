@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arithmetic Operators Example</title>
+</head>
+<body>
+
+  <p id="result"></p>
+
+  <script>
+    // Declare variables
+    var num1 = 10;
+    var num2 = 5;
+
+    // Calculate and display the sum
+    var sum = num1 + num2;
+    document.getElementById("result").innerHTML += "Sum: " + sum + "<br>";
+
+    // Calculate and display the difference
+    var difference = num1 - num2;
+    document.getElementById("result").innerHTML += "Difference: " + difference + "<br>";
+
+    // Calculate and display the product
+    var product = num1 * num2;
+    document.getElementById("result").innerHTML += "Product: " + product + "<br>";
+
+    // Calculate and display the quotient
+    var quotient = num1 / num2;
+    document.getElementById("result").innerHTML += "Quotient: " + quotient + "<br>";
+
+    // Calculate and display the remainder
+    var remainder = num1 % num2;
+    document.getElementById("result").innerHTML += "Remainder: " + remainder + "<br>";
+  </script>
+
+</body>
+</html>
