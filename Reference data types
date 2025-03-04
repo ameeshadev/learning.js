@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>This is javascript</h1>
+    <p>reference datatype</p>
+    <script>
+      let persons = { name: "ameesha", age: 12 }; // Corrected: = to :
+      let names = ["honey", "mahir", "kamal"];
+      let currentdate = new Date();
+
+      document.write("Persons: " + JSON.stringify(persons) + "<br>"); // Use JSON.stringify
+      document.write("Names: " + names + "<br>"); // Arrays are displayed correctly by default
+      document.write("Current Date: " + currentdate + "<br>");
+    </script>
+  </body>
+</html>
