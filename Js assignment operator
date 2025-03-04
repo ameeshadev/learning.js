@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Operators</title>
+</head>
+<body>
+
+  <h2>Assignment Operators Example</h2>
+
+  <p id="output"></p>
+
+  <button type="button" onclick="myFunction()">Try it</button>
+
+  <script>
+    function myFunction() {
+      let x = 10;
+      let y = 5;
+      let z = 15;
+      let a = 20;
+      let b = 8;
+      let c = 30;
+
+      x += y;        // x = x + y (x now becomes 15)
+      z -= y;        // z = z - y (z now becomes 10)
+      a *= b;        // a = a * b (a now becomes 160)
+      b /= x;        // b = b / x (b now becomes 0.5333333333333333)
+      c %= z;        // c = c % z (c now becomes 0)
+
+      document.getElementById("output").innerHTML =
+        "x = " + x + "<br>" +
+        "z = " + z + "<br>" +
+        "a = " + a + "<br>" +
+        "b = " + b + "<br>" +
+        "c = " + c;
+    }
+  </script>
+
+</body>
+</html>
