@@ -1,0 +1,18 @@
+// Simple typeof examples:
+
+let text = "hello";
+console.log(typeof text); // Output: "string"
+
+let number = 10;
+console.log(typeof number); // Output: "number"
+
+let yes = true;
+console.log(typeof yes); // Output: "boolean"
+
+let nothing;
+console.log(typeof nothing); // Output: "undefined"
+
+let obj = {};
+console.log(typeof obj); // Output: "object"
+let function=();
+console.log(typeof function);//output:"function ()"
