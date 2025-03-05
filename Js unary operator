@@ -1,0 +1,26 @@
+// Simple Unary Operator Examples:
+
+// Turn a string into a number:
+let text = "5";
+let number = +text; // + is the unary plus
+console.log(number); // Output: 5
+
+// Make a number negative:
+let x = 10;
+let negativeX = -x; // - is the unary minus
+console.log(negativeX); // Output: -10
+
+// Flip true to false, or false to true:
+let isTrue = true;
+let isFalse = !isTrue; // ! is the logical NOT
+console.log(isFalse); // Output: false
+
+// Add 1 to a number:
+let count = 5;
+count++; // ++ is the increment operator
+console.log(count); // Output: 6
+
+// Subtract 1 from a number:
+let counter = 10;
+counter--; // -- is the decrement operator
+console.log(counter); // Output: 9
