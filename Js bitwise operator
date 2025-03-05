@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Operators</title>
+</head>
+<body>
+
+  <h2>Bitwise Operators</h2>
+  <p>
+    a = 5 (0101)<br>
+    b = 3 (0011)<br>
+    a & b = 1 (0001)<br>
+    a | b = 7 (0111)<br>
+    a ^ b = 6 (0110)<br>
+    ~a = -6 (1010)<br>
+    a << 1 = 10 (1010)<br>
+    b >> 1 = 1 (0001)<br>
+    b >>> 1 = 1 (0001)
+  </p>
+
+  <h2>Ternary Operator</h2>
+  <p>
+    var age = 20; <br>
+    var canVote = (age >= 18) ? "Can Vote" : "Cannot Vote"; <br>
+    document.write(canVote); // Output: Can Vote
+  </p>
+
+  <script>
+    // Bitwise Operators Example
+    var a = 5;
+    var b = 3;
+    document.write("a & b = " + (a & b) + "<br>");
+    document.write("a | b = " + (a | b) + "<br>");
+    document.write("a ^ b = " + (a ^ b) + "<br>");
+    document.write("~a = " + (~a) + "<br>");
+    document.write("a << 1 = " + (a << 1) + "<br>");
+    document.write("b >> 1 = " + (b >> 1) + "<br>");
+    document.write("b >>> 1 = " + (b >>> 1) + "<br>");
+
+    // Ternary Operator Example
+    var age = 20;
+    var canVote = (age >= 18) ? "Can Vote" : "Cannot Vote";
+    document.write(canVote);
+  </script>
+
+</body>
+</html>
