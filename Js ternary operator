@@ -1,0 +1,18 @@
+// Simple JavaScript ternary operator examples:
+
+let age = 20;
+let status = age >= 18 ? "Adult" : "Minor";
+console.log(status); // Output: Adult
+
+age = 15;
+status = age >= 18 ? "Adult" : "Minor";
+console.log(status); // Output: Minor
+
+let x = 5;
+let result = x > 0 ? "Positive" : "Not positive";
+console.log(result); // Output: Positive
+
+x = -3;
+result = x > 0 ? "Positive" : "Not positive";
+console.log(result); //Output: Not positive
+
