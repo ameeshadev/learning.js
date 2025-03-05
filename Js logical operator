@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logical Operators</title>
+  <script>
+    function checkNumber() {
+      var num1 = parseInt(document.getElementById("numInput1").value);
+      var num2 = parseInt(document.getElementById("numInput2").value);
+
+      if (num1 > 10 && num2 < 20) {
+        document.getElementById("output").innerHTML = "Both conditions are true.";
+      } else if (num1 > 10 || num2 < 20) {
+        document.getElementById("output").innerHTML = "At least one condition is true.";
+      } else {
+        document.getElementById("output").innerHTML = "Neither condition is true.";
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <h1>Logical Operators</h1>
+  <input type="number" id="numInput1" placeholder="Enter number 1">
+  <input type="number" id="numInput2" placeholder="Enter number 2">
+  <button onclick="checkNumber()">Check</button>
+
+  <p id="output"></p>
+
+</body>
+</html>
