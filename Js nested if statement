@@ -1,0 +1,13 @@
+let temperature = 80;
+let humidity = 60;
+
+if (temperature > 75) {
+  console.log("It's hot!");
+  if (humidity > 50) {
+    console.log("It's also humid!");
+  } else {
+    console.log("But the humidity is comfortable.");
+  }
+} else {
+  console.log("The temperature is pleasant.");
+}
