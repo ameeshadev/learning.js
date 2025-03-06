@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>This is  if-else statement</h1>
+       <script>
+       let age=15;
+       if(age>=18){
+           document.write("you are an adult");
+       }
+       else{
+           document.write("you are a minor");
+           }
+       
+          
+       </script>
+   </body>
+</html>
