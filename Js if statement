@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>This is  if statement</h1>
+       <script>
+       let temperature=25;
+       if(temperature>30){
+           document.write("it is hot outside");
+       }
+          
+       </script>
+   </body>
+</html>
