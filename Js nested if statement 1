@@ -1,0 +1,48 @@
+function categorizeNumber(number) {
+  if (number > 0) {
+    console.log("The number is positive.");
+    if (number % 2 === 0) {
+      console.log("And it's even.");
+      if (number > 10) {
+        console.log("And it's greater than 10.");
+      } else {
+        console.log("And it's not greater than 10.");
+      }
+    } else {
+      console.log("And it's odd.");
+    }
+  } else if (number < 0) {
+    console.log("The number is negative.");
+  } else {
+    console.log("The number is zero.");
+  }
+}
+
+categorizeNumber(12); // Output: The number is positive. And it's even. And it's greater than 10.
+categorizeNumber(7);  // Output: The number is positive. And it's odd.
+categorizeNumber(4); // Output: The number is positive. And it's even. And it's not greater than 10.
+categorizeNumber(-5); // Output: The number is negative.
+categorizeNumber(0);  // Output: The number is zero.
+
+function checkProductAvailability(inStock, isDiscounted, quantity) {
+    if(inStock){
+        console.log("Product is in stock.");
+        if(isDiscounted){
+            console.log("Product is discounted.");
+            if(quantity > 0){
+                console.log("And there are items available for purchase.");
+            } else {
+                console.log("But there are no items available for purchase.");
+            }
+        } else {
+            console.log("Product is not discounted.");
+        }
+    } else {
+        console.log("Product is out of stock.");
+    }
+}
+
+checkProductAvailability(true, true, 5); //all 4 logs.
+checkProductAvailability(true, true, 0); //all but the last log.
+checkProductAvailability(true, false, 5); //first two logs.
+checkProductAvailability(false, true, 5); //first log.
