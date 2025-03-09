@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>javascript for of loop</h1>
+    <script>
+      const numbers = [1, 2, 3, 4, 5];
+      for (const num of numbers) {
+        document.write(num + "<br>");
+      }
+    </script>
+  </body>
+</html>
