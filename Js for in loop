@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>javascript for in loop</h1>
+    <script>
+      const subjects = {
+        name: "javascript",
+        character: 10,
+      };
+      for (const key in subjects) {
+        document.write(key + ":" + subjects[key] + "<br>");
+      }
+    </script>
+  </body>
+</html>
