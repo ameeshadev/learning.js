@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript for loop with continue</h1>
+    <script>
+      for (let a = 0; a <= 22; a++) {
+        if (a === 15) {
+          continue; // Skip the iteration when a is 15
+        }
+        document.write(a + "<br>");
+      }
+    </script>
+  </body>
+</html>
