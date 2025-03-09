@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>javascript for of loop</h1>
+    <script>
+      for(let a=0;a<=22;a++){
+          if(a==19){
+              break;
+          }
+          document.write(a+"<br>");
+          
+      }
+      
+    </script>
+  </body>
+</html>
