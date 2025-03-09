@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>javascript while loop</h1>
+       <script>
+       let a=5;
+       do{
+           document.write(a,"<br>");
+           a++;
+           }
+       while (a<=10);
+       </script>
+   </body>
+</html>
