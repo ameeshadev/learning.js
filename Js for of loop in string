@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>javascript for of loop</h1>
+    <script>
+      const names = ["ammi", "ameesha"]; // Corrected: Use an array
+      for (const text of names) {
+        document.write(text + "<br>");
+      }
+    </script>
+  </body>
+</html>
