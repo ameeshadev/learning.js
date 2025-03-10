@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Internal Javascript</title>
+    <script>
+      function Internaljavascript(){
+        alert("this is internal Javascript!");
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="Internaljavascript()">click me</button>
+  </body>
+</html>
