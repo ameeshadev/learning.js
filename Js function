@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>This is javascript </h1>
+       <p>This is function</p>
+       <script>
+       function sayhello(){
+           document.write("hello, world");
+       }
+          sayhello();
+       </script>
+   </body>
+</html>
