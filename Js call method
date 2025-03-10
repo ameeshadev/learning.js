@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>This is javascript</h1>
+       <p>This is call method</p>
+       <script>
+       function greet(ageing){
+           document.write(ageing+' '+age);
+       }
+       let age=101;
+       greet.call(age,'ammu');
+           
+       </script>
+   </body>
+</html>
