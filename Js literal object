@@ -1,0 +1,23 @@
+// A simple object representing a person
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+  city: "New York"
+};
+
+// Accessing the object's properties
+console.log(person.firstName); // Output: John
+console.log(person.age);       // Output: 30
+
+// Adding a method (function inside an object)
+const car = {
+  make: "Toyota",
+  model: "Camry",
+  start: function() {
+    console.log("Engine started!");
+  }
+};
+
+// Calling the method
+car.start(); // Output: Engine started!
