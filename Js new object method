@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>This is javascript</h1>
+    <p>This is object new method</p>
+    <script>
+      function Students() {
+        // Constructor function for Students
+        this.name = "";
+        this.age = 0;
+        this.marks = 0;
+      }
+
+      const students = new Students(); // Create a new Students object
+
+      students.name = "half";
+      students.age = 23;
+      students.marks = 98;
+
+      document.write(students.name + "<br>");
+      document.write(students.age + "<br>");
+      document.write(students.marks + "<br>");
+
+      students.age = 34;
+      students.name = "ammesha"; // Corrected spelling
+
+      document.write(students.name + "<br>");
+      document.write(students.age + "<br>");
+    </script>
+  </body>
+</html>
