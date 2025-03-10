@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>This is javascript </h1>
+       <p>This is function using parameters, arguments, return statement</p>
+       <script>
+       function add(a,b){
+           return a+b;
+       }
+       let result=add(3,7);
+       document.write(result);
+       </script>
+   </body>
+</html>
