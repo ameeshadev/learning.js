@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>This is javascript</h1>
+    <p>This is call method</p>
+    <script>
+      function greet(name) {
+        document.write(name + ' ' + this.hellos);
+      }
+
+      let obj = { hellos: "hello" }; // Create an object with the 'hellos' property
+
+      greet.call(obj, 'ammu'); // Use 'obj' as the 'this' context
+    </script>
+  </body>
+</html>
