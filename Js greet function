@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>This is javascript </h1>
+       <p>This is function using greet function </p>
+       <script>
+       function  greet(name="ameeshadev"){
+           document.write("hello,"+name+"<br>");
+       }
+       greet("alice");
+       greet();
+       
+       </script>
+   </body>
+</html>
