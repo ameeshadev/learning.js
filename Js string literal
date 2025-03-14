@@ -1,0 +1,13 @@
+ <!DOCTYPE html>
+<html>
+   <body>
+
+   <h1>This is Web Page </h1>
+   <p>String literal </p>
+
+   <script>
+       var str="This is string";  
+       document.write(str);  
+   </script>
+   </body>
+</html> 
