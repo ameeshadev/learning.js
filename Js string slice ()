@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>javascript strings </h1>
+       <p> string methods in slice() method</p>
+       <script>
+       let name="ameesha";
+       let name1= name.slice(0,5);
+       document.write(name1);
+       </script>
+   </body>
+</html>
