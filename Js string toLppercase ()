@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>javascript strings </h1>
+       <p> string methods in toLppercase() method</p>
+       <script>
+       let name="AMEESHA";
+       let name1= name.toLppercase();
+       document.write(name1);
+       </script>
+   </body>
+</html>
