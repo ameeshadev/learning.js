@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>javascript strings </h1>
+       <p> string methods in concat() method</p>
+       <script>
+       let name="ameesha";
+       let name1= name.indexOf("ameesha");
+       document.write(name1);
+       </script>
+   </body>
+</html>
