@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>javascript strings</h1>
+    <p>string methods in concat() method</p>
+    <script>
+      let name = "ameesha";
+      let anothername = " honey";
+      let name1 = name.concat(anothername);
+      document.write(name1); // Corrected from document.wtite to document.write
+    </script>
+  </body>
+</html>
