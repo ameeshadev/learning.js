@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>javascript string </h1>
+       <p>The split () method is removes white space and tags also</p>
+       <script>
+       let text="ameesha   dev";
+       let text1=text.trim();
+       document.write(text1);
+       </script>
+   </body>
+</html>
