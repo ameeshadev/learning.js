@@ -1,0 +1,28 @@
+let throne = "shaik";
+let Snames = "hameesha";
+let combinedName = throne.concat(" ", Snames); // Concatenate with a space
+document.write("Combined Names: " + combinedName + "<br>"); // Display combined name
+
+let message = "Hello, ameesha!!";
+let indexHe = message.indexOf("He");
+document.write("Index of 'He': " + indexHe + "<br>"); // Display index of "He"
+
+let replacedMessage = message.replace("ameesha", "World");
+document.write("Replaced Message: " + replacedMessage + "<br>"); // Display replaced message
+
+let uppercaseMessage = message.toUpperCase();
+document.write("Uppercase Message: " + uppercaseMessage + "<br>"); // Display uppercase
+
+let charAtIndex5 = message.charAt(5);
+document.write("Character at index 5: " + charAtIndex5 + "<br>"); // display character at index 5.
+
+document.title = "String Operations"; // Set document title
+
+let repeatedThrone = throne.repeat(2);
+document.write("Repeated Throne: " + repeatedThrone + "<br>");//display repeated throne.
+
+let templateLiteralExample = `The message is: ${message}`;
+document.write("Template Literal: " + templateLiteralExample + "<br>");
+
+let lowerCaseExample = uppercaseMessage.toLowerCase();
+document.write("Lowercase Example: " + lowerCaseExample + "<br>");
