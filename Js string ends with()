@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1>javascript string </h1>
+       <p>The endsWith() method </p>
+       <script>
+       let text="ameesha   dev";
+       let text1=text.endsWith("ameesha");
+       document.write(text1);
+       </script>
+   </body>
+</html>
