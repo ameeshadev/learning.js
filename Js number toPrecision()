@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1> javascript numbers</h1>
+       <p>number method toFixed() </p>
+       <script>
+       let number= 20.568;
+       let numbers= number.toPrecision(4);
+       document.write(numbers);
+       </script>
+   </body>
+</html>
