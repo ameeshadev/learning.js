@@ -1,0 +1,7 @@
+console.log(isNaN(NaN));      // Output: true
+console.log(isNaN(10));       // Output: false
+console.log(isNaN("hello"));   // Output: true (because "hello" cannot be converted to a number)
+console.log(isNaN("10"));      // Output: false (because "10" can be converted to the number 10)
+console.log(isNaN(undefined)); // Output: true
+console.log(isNaN({}));        //Output: true
+console.log(isNaN(""));        //Output: false. Because the empty string coerces to 0.
