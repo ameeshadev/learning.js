@@ -1,0 +1,5 @@
+console.log(parseInt("42"));     // Output: 42
+console.log(parseInt("101", 2));  // Output: 5
+console.log(parseInt("A", 16));    // Output: 10
+console.log(parseInt("hello"));   // Output: NaN
+console.log(parseInt("12abc"));   // Output: 12
