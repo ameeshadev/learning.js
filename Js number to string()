@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <h1> javascript numbers</h1>
+       <p>number method toString() </p>
+       <script>
+       let number= 20.568;
+       let numbers= number.toString();
+       document.write(numbers);
+       document.write(typeof numbers+"<br>");
+       </script>
+   </body>
+</html>
