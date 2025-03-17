@@ -1,0 +1,7 @@
+let numbers = [2, 3, 4];
+numbers.unshift(1, 0); // Add 1 and 0
+console.log(numbers); // Output: [1, 0, 2, 3, 4]
+
+let colors = ["red", "blue", "green"];
+colors[1] = "yellow"; // Change "blue" to "yellow"
+console.log(colors); // Output: ["red", "yellow", "green"]
