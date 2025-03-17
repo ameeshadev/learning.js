@@ -1,0 +1,8 @@
+let fruits = ["apple", "banana", "orange"];
+console.log(fruits.length); // Output: 3
+
+let numbers = [10, 20, 30, 40, 50];
+console.log(numbers.length); // Output: 5
+
+let emptyArray = [];
+console.log(emptyArray.length); // Output: 0
