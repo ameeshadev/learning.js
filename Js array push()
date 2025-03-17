@@ -1,0 +1,4 @@
+let colors = ["red", "blue"];
+  colors.push("green", "yellow");
+  console.log(colors); // Output: ["red", "blue", "green", "yellow"]
+  console.log(colors.length); // Output: 4
