@@ -1,0 +1,3 @@
+let fruits = ["apple", "banana", "orange"];
+let joinedString = fruits.join(", ");
+console.log(joinedString);
