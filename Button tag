@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BUTTON</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<input onclick="openGoogle()" type="button" value="GOOGLE" />
+<script>
+function openGoogle() {
+window.open("https://www.google.com", "_blank");
+}
+</script>
+</body>
+</html>
