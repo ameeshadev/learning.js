@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML lists Example</title>
+  </head>
+  <body>
+    <h1>working with html lists</h1>
+    <h2>unordered list</h2>
+    <ul>
+      <li>HTML</li>
+      <li>css</li>
+      <li>javascript</li>
+    </ul>
+    <h2>ordered list</h2>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ol>
+    <h2>Nested list</h2>
+    <ul>
+      <li>category h1
+      <ul>
+        <li>sub item1</li>
+        <li>sub item2</li>
+      </ul>
+      </li>
+      <li>category  2
+        <ol>
+          <li>detail 1</li>
+          <li>detail 2</li>
+        </ol>
+      </li>
+    </ul>
+    <h2>orered list is an unordered list</h2>
+    <ul>
+      <li> main topic  </li>
+      <ol>
+        <li>html</li>
+        <li>javascript</li>
+      </ol>
+      <li>another topic</li>
+      <ol>
+        <li>css</li>
+      </ol>
+    </ul>
+    <h2>Definetion list</h2>
+    <dl>
+      <dt>HTML</dt>
+      <dd>hyper text markup language is used to structure of the web content</dd>
+      <dt>CSS</dt>
+      <dd>cascading style sheet is used to  style the web content</dd>
+      <dt>JAVASCRIPT</dt>
+      <dd>javascript is used to making web pages interactive and dynamic,</dd>
+    </dl>
+    
+  </body>
+</html>
