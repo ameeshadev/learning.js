@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .color-name { color: red; }
+      .hex { color: #00ff00; }
+      .rgb { color: rgb(10, 0, 255); }
+      .rgba { color: rgba(25, 30, 200, 0.3); }
+      .hs1 { color: hsl(300, 100%, 50%); }
+    </style>
+  </head>
+  <body>
+    <p class="color-name">This is red using color name</p>
+    <p class="hex">This is green using hex</p>
+    <p class="rgb">This is blue using RGB</p>
+    <p class="rgba">This is light blue using RGBA</p>
+    <p class="hs1">This is purple using HSL</p>
+  </body>
+</html>
