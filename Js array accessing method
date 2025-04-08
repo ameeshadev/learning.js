@@ -1,0 +1,9 @@
+let myArray = ["apple", "banana", "cherry", "date"];
+
+let firstElement = myArray[0]; // Accesses the element at index 0 ("apple")
+let thirdElement = myArray[2]; // Accesses the element at index 2 ("cherry")
+let lastElement = myArray[myArray.length - 1]; // Accesses the last element ("date")
+
+console.log(firstElement);   // Output: apple
+console.log(thirdElement);    // Output: cherry
+console.log(lastElement);     // Output: date
