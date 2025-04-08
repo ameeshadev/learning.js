@@ -1,0 +1,4 @@
+let myArray = ["apple", "banana"];
+let newLength = myArray.push("cherry", "date");
+console.log(myArray);   // Output: ["apple", "banana", "cherry", "date"]
+console.log(newLength); // Output: 4
