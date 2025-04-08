@@ -1,0 +1,7 @@
+let myArray = ["apple", "banana", "cherry"];
+let arrayLength = myArray.length;
+console.log(arrayLength); // Output: 3
+
+let emptyArray = [];
+let emptyLength = emptyArray.length;
+console.log(emptyLength); // Output: 0
