@@ -1,0 +1,23 @@
+class Parent {
+  constructor(name) {
+    this.name = name;
+  }
+  sayHi() {
+    console.log(`Hi, I'm ${this.name}`);
+  }
+}
+
+class Child extends Parent {
+  constructor(name, age) {
+    super(name);
+    this.age = age;
+  }
+  sayHello() {
+    super.sayHi(); // Call parent's method
+    console.log(`And I'm ${this.age} years old.`);
+  }
+}
+
+let child = new Child("Alice", 10);
+child.sayHello(); // Output: Hi, I'm Alice
+                 //         And I'm 10 years old.
