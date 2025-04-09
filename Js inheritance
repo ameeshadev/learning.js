@@ -1,0 +1,18 @@
+// Parent object
+const animal = {
+  sound: "Generic animal sound",
+  makeSound() {
+    console.log(this.sound);
+  }
+};
+
+// Child object inheriting from animal
+const dog = Object.create(animal);
+dog.sound = "Woof!";
+dog.bark = function() {
+  console.log("Bark bark!");
+};
+
+dog.makeSound(); // Output: Woof! (inherits makeSound and 'this' is bound to dog)
+dog.bark();      // Output: Bark bark!
+console.log(Object.getPrototypeOf(dog) === animal); // Output: true
