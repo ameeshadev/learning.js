@@ -1,0 +1,25 @@
+class Animal {
+  constructor(sound) {
+    this.sound = sound;
+  }
+
+  makeSound() {
+    console.log(this.sound);
+  }
+}
+
+class Dog extends Animal {
+  constructor(sound) {
+    super(sound); // Call the Animal constructor with the 'sound' argument
+  }
+
+  bark() {
+    console.log("Bark bark!");
+  }
+}
+
+const myDog = new Dog("Woof!");
+myDog.makeSound(); // Output: Woof! (inherited from Animal)
+myDog.bark();      // Output: Bark bark!
+console.log(myDog instanceof Animal); // Output: true
+console.log(myDog instanceof Dog);   // Output: true
