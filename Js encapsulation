@@ -1,0 +1,11 @@
+function createSecret(secretValue) {
+  return {
+    getSecret: function() {
+      return secretValue;
+    }
+  };
+}
+
+const mySecret = createSecret("This is a secret!");
+console.log(mySecret.getSecret()); // Output: This is a secret!
+// console.log(mySecret.secretValue); // undefined
