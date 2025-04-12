@@ -1,0 +1,12 @@
+function sayHello() {
+  console.log(`Hello, ${this.name}!`);
+}
+
+const personA = { name: "ameesha" };
+const personB = { name: "honey" };
+
+sayHello.call(personA);  
+sayHello.apply(personB);  
+
+const greetPersonA = sayHello.bind(personA);
+greetPersonA();           
