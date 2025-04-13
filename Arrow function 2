@@ -1,0 +1,12 @@
+// Multiply a number by 3
+const timesThree = num => num * 3;
+console.log(timesThree(6)); // Output: 18
+
+// Convert a string to uppercase
+const toUpper = str => str.toUpperCase();
+console.log(toUpper("example")); // Output: EXAMPLE
+
+// Check if a number is positive
+const isPositive = num => num > 0;
+console.log(isPositive(5));   // Output: true
+console.log(isPositive(-2));  // Output: false
