@@ -1,0 +1,12 @@
+// Add two numbers
+const sum = (a, b) => a + b;
+console.log(sum(2, 5)); // Output: 7
+
+// Check if a number is even
+const isEven = num => num % 2 === 0;
+console.log(isEven(4));  // Output: true
+console.log(isEven(7));  // Output: false
+
+// Greet a person
+const greet = name => `Hello, ${name}!`;
+console.log(greet("Alice")); // Output: Hello, Alice!
