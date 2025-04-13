@@ -1,0 +1,12 @@
+// Square a number
+const square = n => n * n;
+console.log(square(9)); // Output: 81
+
+// Get the first element of an array
+const firstElement = arr => arr[0];
+console.log(firstElement([10, 20, 30])); // Output: 10
+
+// Check if a string is longer than 5 characters
+const isLong = str => str.length > 5;
+console.log(isLong("hello"));   // Output: false
+console.log(isLong("world123")); // Output: true
